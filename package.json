@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@lumen/zod",
   "version": "0.1.0",
   "type": "module",
@@ -21,8 +21,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@lumen/common": "workspace:*",
-    "@lumen/core": "workspace:*",
+    "@lumen/common": "git+https://github.com/lumen-ts/common.git",
+    "@lumen/core": "git+https://github.com/lumen-ts/core.git",
     "zod": "^4.5.4"
   },
   "devDependencies": {
